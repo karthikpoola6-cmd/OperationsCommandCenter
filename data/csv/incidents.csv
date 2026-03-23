@@ -1,0 +1,16 @@
+incident_id,title,incident_type,description,severity,status,assigned_team,shipment_id,created_at,resolved_at
+1,Shipment Delay: Order ORD-1003,shipment_delay,Shipment from Austin to New York is 9+ days overdue. Carrier DHL reports customs hold.,critical,investigating,Logistics Operations,3,2026-03-15 10:00,
+2,Shipment Delay: Order ORD-1005,shipment_delay,Critical priority shipment to Seattle delayed 10+ days. Weather disruption reported on I-40 corridor.,critical,open,Logistics Operations,5,2026-03-14 08:00,
+3,Shipment Delay: Order ORD-1008,shipment_delay,Shipment to Phoenix delayed 6+ days. Carrier DHL backlog in regional hub.,high,open,Logistics Operations,8,2026-03-18 11:00,
+4,Shipment Delay: Order ORD-1012,shipment_delay,High priority shipment to Detroit delayed 7+ days. UPS reports vehicle breakdown on route.,high,investigating,Logistics Operations,12,2026-03-17 09:00,
+5,Warehouse System Outage,system_outage,Dallas warehouse management system unresponsive. Affecting order processing for 200+ pending shipments.,critical,investigating,IT Operations,,2026-03-22 03:00,
+6,Late Delivery: Order ORD-1002,shipment_delay,Shipment to Chicago delivered 30 hours late. Customer complaint received and escalated.,medium,resolved,Customer Service,2,2026-03-17 18:00,2026-03-18 10:00
+7,Power BI Dashboard Loading Failure,system_outage,Operations dashboard failing to load for Southwest region. Data refresh stalled since 12:00.,medium,resolved,IT Operations,,2026-03-20 14:00,2026-03-20 16:30
+8,Carrier API Integration Error,system_outage,FedEx tracking API returning 503 errors intermittently since 06:00. Shipment status updates delayed.,high,open,Engineering,,2026-03-23 06:00,
+9,SLA Breach: Multiple Southwest Shipments,sla_breach,Three shipments in Southwest corridor exceeded 48-hour SLA delivery window.,critical,open,Logistics Operations,,2026-03-21 12:00,
+10,Inventory Mismatch Alert,data_quality,Physical inventory count for Dallas warehouse differs from system records by 12%.,high,investigating,Warehouse Operations,,2026-03-22 09:00,
+11,Shipment Delay: Order ORD-1019,shipment_delay,High priority shipment to Columbus delayed 5+ days. Origin warehouse backlog.,high,open,Logistics Operations,19,2026-03-19 10:00,
+12,Shipment Delay: Order ORD-1029,shipment_delay,Critical shipment to Cincinnati delayed 6+ days. Carrier capacity shortage reported.,critical,investigating,Logistics Operations,29,2026-03-18 07:00,
+13,Carrier SLA Review: DHL Southwest,sla_breach,DHL on-time rate dropped below 70% for Southwest routes over trailing 14 days.,high,open,Vendor Management,,2026-03-22 11:00,
+14,Late Delivery: Order ORD-1018,shipment_delay,Shipment to Indianapolis delivered 5 hours late. Within SLA but flagged for trend tracking.,low,resolved,Logistics Operations,18,2026-03-16 15:00,2026-03-16 17:00
+15,Late Delivery: Order ORD-1027,shipment_delay,Shipment to Richmond delivered 3 hours late. Carrier DHL cited traffic delay.,low,resolved,Logistics Operations,27,2026-03-19 19:00,2026-03-20 08:00

@@ -1,0 +1,16 @@
+alert_id,alert_type,message,severity,incident_id,acknowledged,created_at
+1,shipment_delay,Shipment delay detected: Order #ORD-1003 — Expected delivery exceeded by 216+ hours,critical,1,0,2026-03-15 10:00
+2,shipment_delay,CRITICAL: Order #ORD-1005 to Seattle — 240+ hours overdue. Priority: critical,critical,2,0,2026-03-14 08:00
+3,shipment_delay,Shipment delay detected: Order #ORD-1008 — Expected delivery exceeded by 144+ hours,high,3,0,2026-03-18 11:00
+4,shipment_delay,Shipment delay detected: Order #ORD-1012 — Expected delivery exceeded by 168+ hours,high,4,1,2026-03-17 09:00
+5,system_outage,CRITICAL: Dallas warehouse system unresponsive — order processing halted,critical,5,0,2026-03-22 03:00
+6,sla_breach,SLA Breach: Incident #2 open for 216+ hours (target: 24h),critical,2,0,2026-03-23 08:00
+7,sla_breach,SLA Breach: Incident #1 open for 192+ hours (target: 24h),critical,1,0,2026-03-23 08:00
+8,system_outage,FedEx API integration error — tracking data unavailable for 45+ shipments,high,8,0,2026-03-23 06:00
+9,data_quality,Inventory mismatch: Dallas warehouse — 12% variance between physical and system count,high,10,0,2026-03-22 09:00
+10,shipment_delay,Late delivery confirmed: Order #ORD-1002 — 30h late. Customer complaint filed,medium,6,1,2026-03-17 18:00
+11,system_outage,Power BI dashboard refresh stalled — Southwest region data unavailable,medium,7,1,2026-03-20 14:00
+12,sla_breach,SLA Breach: Southwest corridor — 3 shipments exceed 48h delivery window,critical,9,0,2026-03-21 12:00
+13,shipment_delay,Shipment delay detected: Order #ORD-1019 — Expected delivery exceeded by 120+ hours,high,11,0,2026-03-19 10:00
+14,shipment_delay,CRITICAL: Order #ORD-1029 to Cincinnati — 144+ hours overdue. Priority: critical,critical,12,0,2026-03-18 07:00
+15,sla_breach,Carrier performance alert: DHL Southwest on-time rate below 70% threshold,high,13,0,2026-03-22 11:00
